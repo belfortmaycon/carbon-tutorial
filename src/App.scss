@@ -1,3 +1,7 @@
+@use './components/TutorialHeader/tutorial-header';
+@use './content/LandingPage/landing-page';
+@use './content/RepoPage/repo-page';
+
 .App {
   text-align: center;
 }

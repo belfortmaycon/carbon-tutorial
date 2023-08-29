@@ -1157,11 +1157,6 @@
   resolved "https://registry.yarnpkg.com/@carbon/colors/-/colors-11.19.0.tgz#c5f062b9e2033bb390eac7915e451d82ece0d6c3"
   integrity sha512-cRDnv9GfktZo+p/t/Lsy2B3yvMbDI1Ht2ECU0rAikClQHVnOffz791Q4m2gy2STPdISnzjFSPmoRxGKLfYhLRA==
 
-"@carbon/feature-flags@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@carbon/feature-flags/-/feature-flags-0.15.0.tgz#108434a0bb3008bb4f2efeff9442892fe584c357"
-  integrity sha512-pUuJ+iQ+jkrfP4+nFgsBqM3qNsgKY59y0dZX1y2amjROFOo6fn5s/L1ZqAXkLWvmtssOiR1VWbYg1zk4IMTv+g==
-
 "@carbon/feature-flags@^0.16.0":
   version "0.16.0"
   resolved "https://registry.yarnpkg.com/@carbon/feature-flags/-/feature-flags-0.16.0.tgz#0896249e14d6e581639608a3061b7f38e1810bf8"
@@ -1179,7 +1174,7 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.44.0.tgz#4308806bf903310d68240325a53ce400ef7dc9af"
   integrity sha512-8gvP8Qr2pNspIUPiQRQQUB9gdklLxfs7JDIz4a/PUzon7IcVielpl08blh2IjpbDr/cZSje5fwn3CAInCKNb1g==
 
-"@carbon/icons-react@^11.21.0":
+"@carbon/icons-react@^11.25.0":
   version "11.25.0"
   resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-11.25.0.tgz#0fe22e926a2e3f7995bf48bdc2785a21f024995f"
   integrity sha512-YdILzQHI9UwMfjh4TH0XqTRXk4uZr/q6Q5lQSWfLOVE+qnSIc6XFKr60JFCWhab8dxcaSEmpTV5OcbVUoAQxQQ==
@@ -1188,7 +1183,7 @@
     "@carbon/telemetry" "0.1.0"
     prop-types "^15.7.2"
 
-"@carbon/layout@^11.15.0", "@carbon/layout@^11.19.0":
+"@carbon/layout@^11.19.0":
   version "11.19.0"
   resolved "https://registry.yarnpkg.com/@carbon/layout/-/layout-11.19.0.tgz#cd0f97457a91058792d13b09293281270d2b7d91"
   integrity sha512-BI9ct+yVKrgL90l4nijMhj8dokXGBJu1Xtve9fz/lcveTyxxn7YvRu8mosGhCyw77KSU6vN2yRLJnQwqwqrLJQ==
@@ -1198,16 +1193,16 @@
   resolved "https://registry.yarnpkg.com/@carbon/motion/-/motion-11.15.0.tgz#a4f8239c06a3f71ac25f780b22a3338ecb203656"
   integrity sha512-l7SIZMwTmv8BHPvDsQ26Y/dBLKnLGZUvD5bGcDppoUInUcKv2Dg4J0r5JONUsB2OagpBmbj/a5skcahzlaL1JQ==
 
-"@carbon/react@1.32.0":
-  version "1.32.0"
-  resolved "https://registry.yarnpkg.com/@carbon/react/-/react-1.32.0.tgz#d950a15fdd17114a9cfcac5f088e67353181735c"
-  integrity sha512-4gkoLttKNwHQr+4Tvidik3YP4Tsotp74g17bzTSaVulvpwl+tv6Y3aTYXB1c2FCPmSId1A8f+2LKnPAU5o8PyQ==
+"@carbon/react@^1.36.0":
+  version "1.36.0"
+  resolved "https://registry.yarnpkg.com/@carbon/react/-/react-1.36.0.tgz#c2449787990d161085d9ebecee80cfc1b19ee00f"
+  integrity sha512-w23O+UgyevsVtgM2TL+Y7rzy2HkdHa85DwADdb+NQ5jskeeVbSR1YCkXe9S/VwM+uZq7sMP3Hwico1esh6+DMQ==
   dependencies:
     "@babel/runtime" "^7.18.3"
-    "@carbon/feature-flags" "^0.15.0"
-    "@carbon/icons-react" "^11.21.0"
-    "@carbon/layout" "^11.15.0"
-    "@carbon/styles" "^1.32.0"
+    "@carbon/feature-flags" "^0.16.0"
+    "@carbon/icons-react" "^11.25.0"
+    "@carbon/layout" "^11.19.0"
+    "@carbon/styles" "^1.36.0"
     "@carbon/telemetry" "0.1.0"
     classnames "2.3.2"
     copy-to-clipboard "^3.3.1"
@@ -1225,7 +1220,7 @@
     wicg-inert "^3.1.1"
     window-or-global "^1.0.1"
 
-"@carbon/styles@^1.32.0":
+"@carbon/styles@^1.36.0":
   version "1.36.0"
   resolved "https://registry.yarnpkg.com/@carbon/styles/-/styles-1.36.0.tgz#9e4b81e8b58714141fdaa3c1dd24c91a7a3d095d"
   integrity sha512-UKr0FdNT/QSJVfsrjn03zF364qP2XwOW6+/VaR7SijfEKR1qx9Z6MQbzNMR9OP5hvT/rr3pora1S7R3h6mtz3A==
@@ -1944,6 +1939,11 @@
     loader-utils "^2.0.4"
     schema-utils "^3.0.0"
     source-map "^0.7.3"
+
+"@remix-run/router@1.8.0":
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/@remix-run/router/-/router-1.8.0.tgz#e848d2f669f601544df15ce2a313955e4bf0bafc"
+  integrity sha512-mrfKqIHnSZRyIzBcanNJmVQELTnX+qagEDlcKO90RgRBVOZGSGvZKeDihTRfWcqoDn5N/NkUcwWTccnpN18Tfg==
 
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.1"
@@ -8581,6 +8581,21 @@ react-refresh@^0.11.0:
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.11.0.tgz#77198b944733f0f1f1a90e791de4541f9f074046"
   integrity sha512-F27qZr8uUqwhWZboondsPx8tnC3Ct3SxZA3V5WyEvujRyyNv0VYPhoBg1gZ8/MV5tubQp76Trw8lTv9hzRBa+A==
+
+react-router-dom@^6.15.0:
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/react-router-dom/-/react-router-dom-6.15.0.tgz#6da7db61e56797266fbbef0d5e324d6ac443ee40"
+  integrity sha512-aR42t0fs7brintwBGAv2+mGlCtgtFQeOzK0BM1/OiqEzRejOZtpMZepvgkscpMUnKb8YO84G7s3LsHnnDNonbQ==
+  dependencies:
+    "@remix-run/router" "1.8.0"
+    react-router "6.15.0"
+
+react-router@6.15.0:
+  version "6.15.0"
+  resolved "https://registry.yarnpkg.com/react-router/-/react-router-6.15.0.tgz#bf2cb5a4a7ed57f074d4ea88db0d95033f39cac8"
+  integrity sha512-NIytlzvzLwJkCQj2HLefmeakxxWHWAP+02EGqWEZy+DgfHHKQMUoBBjUQLOtFInBMhWtb3hiUy6MfFgwLjXhqg==
+  dependencies:
+    "@remix-run/router" "1.8.0"
 
 react-scripts@5.0.1:
   version "5.0.1"
